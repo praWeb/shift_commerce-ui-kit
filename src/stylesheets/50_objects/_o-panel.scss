@@ -1,0 +1,13 @@
+.o-panel {
+  display: block;
+  border: 0 solid $border-shadow;
+  border-width: 1px 0;
+
+  background: #fff;
+
+  @media (min-width: 1024px) {
+    margin: 2rem;
+    border-width: 1px;
+    border-radius: 0.2rem;
+  }
+}

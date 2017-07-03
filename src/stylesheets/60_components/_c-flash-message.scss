@@ -1,0 +1,62 @@
+$success-color: $background-positive;
+$success-background-color: lighten($success-color, 40%);
+$success-border-color: lighten($success-color, 38%);
+$success-font-color: darken($success-color, 10%);
+
+$error-color: $background-negative;
+$error-background-color: lighten($error-color, 40%);
+$error-border-color: lighten($error-color, 38%);
+$error-font-color: darken($error-color, 10%);
+
+
+.c-flash {
+  &__body {
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+
+    &--success {
+      background-color: $success-background-color;
+      color: $success-font-color;
+      border-bottom: 1px solid $success-border-color;
+
+      .o-icon--ok {
+        &:after,
+        &:before {
+          background-color: $success-font-color;
+        }
+      }
+
+      .o-icon--close {
+        &:after,
+        &:before {
+          background-color: $success-font-color;
+        }
+      }
+    }
+
+    &--error {
+      background-color: $error-background-color;
+      color: $error-font-color;
+      border-bottom: 1px solid $error-border-color;
+
+      .o-icon--close {
+        &:after,
+        &:before {
+          background-color: $error-font-color;
+        }
+      }
+    }
+  }
+
+  &__message {
+    flex: 1;
+    display: flex;
+  }
+
+  &__close-icon {
+    flex: 0;
+    margin-left: 10px;
+  }
+}
+

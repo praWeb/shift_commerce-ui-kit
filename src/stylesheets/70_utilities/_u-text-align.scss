@@ -1,0 +1,3 @@
+@each $alignment in (left right center) {
+  .u-text-align-#{$alignment} { text-align: $alignment }
+}

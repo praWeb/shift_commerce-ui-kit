@@ -1,0 +1,20 @@
+@media (max-width: 1063px) {
+  .u-lg-disp-down {
+    display: block;
+  }
+
+  .u-lg-disp-up{
+    display: none;
+  }
+
+}
+
+@media (min-width: 1064px){
+  .u-lg-disp-down {
+    display: none;
+  }
+
+  .u-lg-disp-up{
+    display: block;
+  }
+}

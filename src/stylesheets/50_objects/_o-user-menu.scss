@@ -1,0 +1,43 @@
+.o-user-menu {
+  max-width: 200px;
+  display: flex;
+  position: relative;
+
+  height: $nav-bar-desktop-height;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: calc(#{$nav-bar-desktop-height} - 0.5rem);
+
+  flex-direction: column;
+  justify-content: center;
+
+  &__avatar {
+    display: block;
+
+    $size: calc(#{$nav-bar-desktop-height} - 1rem);
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+  }
+
+  &__name, &__company {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  &__name {
+    margin-bottom: 0.25rem;
+
+    color: $text-focus;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  &__company {
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,52 @@
+.o-main-menu {
+  background: #fff;
+
+  &__link {
+    display: block;
+    color: inherit;
+    padding: 1rem;
+
+    &:hover, &:focus, &--active {
+      color: $text-focus;
+    }
+
+    &--active {
+      border-left: 2px solid $border-highlight;
+      padding-left: calc(1rem - 2px);
+    }
+  }
+
+  &__primary_menu {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  &__secondary_menu {
+    font-size: 0.75rem;
+    border-bottom: 1px solid $border-divider;
+  }
+
+  &__secondary_menu &__link {
+    border-top: 1px solid $border-divider;
+  }
+
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__link {
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      &--active {
+        padding-left: calc(2rem - 2px);
+      }
+    }
+
+    &__secondary_menu {
+      margin-top: auto;
+      border-bottom: 0;
+    }
+  }
+}

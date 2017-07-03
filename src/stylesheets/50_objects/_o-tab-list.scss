@@ -1,0 +1,16 @@
+.o-tab-list {
+  border-bottom: 1px solid $border-shadow;
+  margin: 10px 0;
+
+  &__tab {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+
+    &--selected {
+      background: $background-light;
+      border-bottom: 2px solid $border-highlight;
+      color: black;
+    }
+  }
+}

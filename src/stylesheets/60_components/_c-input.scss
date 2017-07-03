@@ -1,0 +1,56 @@
+.c-input {
+
+  &__group {
+    padding: 10px;
+    margin:10px 0 0;
+    font-size: 12px;
+    width: 100%;
+
+    &--flex {
+      display: flex;
+    }
+
+    &--selected {
+      background-color: $background-light;
+      border:1px solid $border-default;
+    }
+
+    &__label{
+      color: $text-focus;
+      font-weight: 500;
+      line-height: 18px;
+      cursor: pointer;
+    }
+
+    &__hint {
+      line-height: 12px;
+      color: $text-default;
+      font-size: 10px
+    }
+
+    &__tip {
+      line-height: 12px;
+      color: $text-default;
+      font-size: 8px
+    }
+
+    &__tip-icon {
+      margin-right: 5px;
+      font-size: 8px;
+    }
+
+    &__field {
+
+      &--text,
+      &--number {
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px;
+        border:1px solid $border-default;
+        border-radius: 5px;
+        line-height: 16px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,3 @@
+@each $alignment in (left right) {
+  .u-float-#{$alignment} { float: $alignment }
+}

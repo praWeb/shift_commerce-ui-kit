@@ -1,0 +1,9 @@
+$sides: (top left bottom right);
+
+@each $side in $sides {
+  @each $size in map-keys($named-sizes) {
+    .u-margin-#{$side}-#{$size} {
+      margin-#{$side}: map-get($named-sizes, $size);
+    }
+  }
+}

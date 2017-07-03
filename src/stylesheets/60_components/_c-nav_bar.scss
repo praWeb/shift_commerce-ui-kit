@@ -1,0 +1,23 @@
+.c-nav_bar {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.c-nav_bar__link {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c-nav_bar__link:hover {
+  color: red;
+}
+
+.c-nav_bar__link:active {
+  color: blue;
+}
+
+.c-nav_bar__link--active {
+  background-color: AliceBlue;
+}
