@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" style="background:#EFF3F6">
+  <path  fill="none" stroke="#7F8FA4" stroke-width="2" d="M10.0695455,23.545 C14.4168182,17.7495455 22.1022727,24.3754545 30.4545455,16.8181818 C34.5454545,23.2954545 39.9386364,23.6309091 39.9386364,23.6309091" />
+  <circle fill="#7F8FA4" fill-rule="nonzero" cx="18.8181818" cy="28.3636364" r="2" />
+  <circle fill="#7F8FA4" fill-rule="nonzero" cx="31.0909091" cy="28.3636364" r="2" />
+  <circle  fill="none" stroke="#7F8FA4" stroke-width="2" cx="25" cy="25" r="15" />
+</svg>
