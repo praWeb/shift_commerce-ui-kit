@@ -38,13 +38,7 @@ const config = {
       DEVELOPMENT: process.env.NODE_ENV === 'development',
       API_HOST: JSON.stringify(process.env.API_HOST)
     })
-  ],
-  resolve: {
-    extensions: ['.react.js', '.js', '.jsx', '.scss'],
-    modules: [
-      "node_modules"
-    ]
-  }
+  ]
 }
 
 if(process.env.NODE_ENV === 'development'){
