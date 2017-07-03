@@ -15,8 +15,12 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif|svg)$/,
-        use: "file-loader"
+        test: /\.(png|svg)$/,
+        loader: 'url-loader?limit=100000'
+      },
+      {
+        test: /\.(jpg|ttf|otf|eot|woff(2)?)$/,
+        loader: "file-loader"
       },
       {
         test: /\.(scss)$/,
