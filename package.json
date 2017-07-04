@@ -1,6 +1,6 @@
 {
   "name": "shift_commerce-ui-kit",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "UI Kit for Shift Commerce Projects",
   "gitrepository": "https://github.com/praWeb/shift_commerce-ui-kit",
   "main": "./index.js",
