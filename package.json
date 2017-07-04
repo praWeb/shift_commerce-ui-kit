@@ -3,7 +3,7 @@
   "version": "0.0.15",
   "description": "UI Kit for Shift Commerce Projects",
   "gitrepository": "https://github.com/praWeb/shift_commerce-ui-kit",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

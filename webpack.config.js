@@ -7,7 +7,7 @@ if(process.env.NODE_ENV === 'development') {
 }
 
 const config = {
-  entry: ['./src/index.js'],
+  entry: ['./index.js'],
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
