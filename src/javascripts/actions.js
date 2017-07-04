@@ -47,3 +47,40 @@ export function setFlashMessage(options) {
   }
 }
 
+export function setPaginationPage(page) {
+  return {
+    type: types.SET_PAGINATION_PAGE,
+    current_page: page
+  }
+}
+
+export function setRecordCount(record_count) {
+  return {
+    type: types.SET_RECORD_COUNT,
+    record_count: record_count
+  }
+}
+
+export function setSearchTerm(search_term, namespace) {
+  return {
+    type: types.SET_SEARCH_TERM,
+    namespace: namespace,
+    term: search_term
+  }
+}
+
+export function setDisplaySearchTerm(search_term, namespace) {
+  return {
+    type: types.SET_DISPLAY_SEARCH_TERM,
+    namespace: namespace,
+    display_search_term: search_term
+  }
+}
+
+export function resetSearch(namespace) {
+  return {
+    type: types.RESET_SEARCH,
+    namespace: namespace
+  }
+}
+
