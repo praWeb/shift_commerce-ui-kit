@@ -1,0 +1,3 @@
+@each $alignment in (block flex inline-block) {
+  .u-display-#{$alignment} { display: $alignment }
+}

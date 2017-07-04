@@ -1,0 +1,46 @@
+.o-popover {
+  position: relative;
+
+  &__label {
+    padding: 10px;
+  }
+
+  &__body {
+    position: absolute;
+    background: $background-white;
+    z-index: 999;
+    min-width: 200px;
+    font-size: 14px;
+    border: 1px solid $border-default;
+    line-break: auto;
+    box-shadow: 0 2px 8px $border-default;
+    -webkit-box-shadow: 0 2px 8px $border-default;
+    -webkit-background-clip: padding-box;
+    border-radius: 5px 5px 0 0;
+
+    &:before, &:after {
+      position: absolute;
+      content: '';
+      border-style: solid;
+    }
+    &:before {
+      right: calc(80% - 13px);
+      top: -11px;
+      border-width: 0 13px 11px 13px;
+      border-color: transparent transparent $border-default transparent;
+    }
+
+    &:after {
+      right: calc(80% - 10px);
+      top: -10px;
+      border-width: 0 10px 10px 10px;
+      border-color: transparent transparent $background-white transparent;
+    }
+
+    &__content {
+      background-color: $background-white;
+      padding: 15px;
+    }
+  }
+
+}

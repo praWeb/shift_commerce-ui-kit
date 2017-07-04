@@ -17,9 +17,8 @@ export default class TabContent extends Component {
         { ...otherProps }
       >
         { selected ? children : null }
-    </div>
+      </div>
     )
-
   }
 
 }
