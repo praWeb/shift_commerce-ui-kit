@@ -1,4 +1,3 @@
-import { readEndpoint } from 'redux-json-api'
 import * as types from './constants/actionTypes'
 import * as localStorageKeys from './constants/localStorageKeys'
 
