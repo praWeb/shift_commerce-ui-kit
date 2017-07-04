@@ -1,4 +1,4 @@
-import "./stylesheets/_application.css.scss"
+import "./src/stylesheets/_application.css.scss"
 
 // Components
 import AutoCompleteField from './src/javascripts/components/AutoCompleteField'
@@ -21,7 +21,7 @@ import randomString from './src/javascripts/lib/randomString'
 
 // Objects
 import AppShell from './src/javascripts/objects/AppShell'
-import AuthenticationCofig from './src/javascripts/objects/AuthenticationConfig'
+import AuthenticationConfig from './src/javascripts/objects/AuthenticationConfig'
 import Button from './src/javascripts/objects/Button'
 import FlashMessage from './src/javascripts/objects/FlashMessage'
 import Modal from './src/javascripts/objects/Modal'
@@ -50,7 +50,7 @@ module.exports = {
   parseQueryString,
   randomString,
   AppShell,
-  AuthenticationCofig,
+  AuthenticationConfig,
   Button,
   FlashMessage,
   Modal,

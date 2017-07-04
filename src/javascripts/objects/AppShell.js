@@ -12,9 +12,9 @@ import AuthenticationConfig from "./AuthenticationConfig"
 import Button from "./Button"
 
 // import assets
-import defaultAvatar from "../../src/images/default-avatar.svg"
-import iconCloseMenu from "../../src/images/icon-close-menu.svg"
-import iconOpenMenu from "../../src/images/icon-open-menu.svg"
+import defaultAvatar from "../../../src/images/default-avatar.svg"
+import iconCloseMenu from "../../../src/images/icon-close-menu.svg"
+import iconOpenMenu from "../../../src/images/icon-open-menu.svg"
 
 // import actions
 import { resetAuthentication } from '../actions'
