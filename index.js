@@ -2,19 +2,20 @@ import "./src/stylesheets/_application.scss"
 
 
 // Lib
-import CsvValidator from 'shift_commerce-ui-kit/src/javascripts/lib/CsvValidator'
-import parseQueryString from 'shift_commerce-ui-kit/src/javascripts/lib/parseQueryString'
-import randomString from 'shift_commerce-ui-kit/src/javascripts/lib/randomString'
+import CsvValidator from './src/javascripts/lib/CsvValidator'
+import parseQueryString from './src/javascripts/lib/parseQueryString'
+import randomString from './src/javascripts/lib/randomString'
 
 // Objects
-import AppShell from 'shift_commerce-ui-kit/src/javascripts/objects/AppShell'
-import AuthenticationCofig from 'shift_commerce-ui-kit/src/javascripts/objects/AuthenticationConfig'
-import Button from 'shift_commerce-ui-kit/src/javascripts/objects/Button'
-import Panel from 'shift_commerce-ui-kit/src/javascripts/objects/Panel'
-import Tab from 'shift_commerce-ui-kit/src/javascripts/objects/Tab'
-import TabContent from 'shift_commerce-ui-kit/src/javascripts/objects/TabContent'
-import TabGroup from 'shift_commerce-ui-kit/src/javascripts/objects/TabGroup'
-import TabList from 'shift_commerce-ui-kit/src/javascripts/objects/TabList'
+import AppShell from './src/javascripts/objects/AppShell'
+import AuthenticationCofig from './src/javascripts/objects/AuthenticationConfig'
+import Button from './src/javascripts/objects/Button'
+import Panel from './src/javascripts/objects/Panel'
+import PillBadge from './src/javascripts/objects/PillBadge'
+import Tab from './src/javascripts/objects/Tab'
+import TabContent from './src/javascripts/objects/TabContent'
+import TabGroup from './src/javascripts/objects/TabGroup'
+import TabList from './src/javascripts/objects/TabList'
 
 module.exports = {
   // lib
@@ -27,6 +28,7 @@ module.exports = {
   AuthenticationCofig: AuthenticationCofig,
   Button: Button,
   Panel: Panel,
+  PillBadge: PillBadge,
   Tab: Tab,
   TabContent: TabContent,
   TabGroup: TabGroup,

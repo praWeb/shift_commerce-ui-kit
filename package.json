@@ -8,7 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "src"
+    "./src/**",
+    "./src/**/**/**",
+    "./src/**/**/**/*",
+    "./index.js"
   ],
   "keywords": [
     "UI",
