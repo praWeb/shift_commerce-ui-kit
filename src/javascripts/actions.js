@@ -83,3 +83,39 @@ export function resetSearch(namespace) {
   }
 }
 
+export function setApplicationConfiguration(config, services = []) {
+  return ((dispatch) => {
+    services.forEach ((service) =>{
+      service(config, dispatch)
+    })
+  })
+}
+
+export function liveMessage(data) {
+  return { type: types.LIVE_UPDATE, payload: data }
+}
+
+export function liveMessagingConfigured() {
+  return { type: types.LIVE_MESSAGING_CONFIGURED }
+}
+
+export function setLoadingTo(boolean) {
+  return {
+    type: types.SET_PROCESS_LOADING,
+    loading: boolean
+  }
+}
+
+export function setErroredTo(boolean) {
+  return {
+    type: types.SET_PROCESS_ERRORED,
+    errored: boolean
+  }
+}
+
+export function resetProcesses() {
+  return {
+    type: types.RESET_PROCESSES
+  }
+}
+
