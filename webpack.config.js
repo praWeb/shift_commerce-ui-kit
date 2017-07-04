@@ -11,8 +11,9 @@ const config = {
     './index.js'
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js'
+    path: path.join(__dirname, 'build'),
+    filename: 'index.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
@@ -34,6 +35,9 @@ const config = {
         use: ['babel-loader']
       }
     ]
+  },
+  externals: {
+    'react': 'commonjs react'
   },
   plugins: [
     new webpack.DefinePlugin({

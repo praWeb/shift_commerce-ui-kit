@@ -17,19 +17,16 @@ import TabGroup from './javascripts/objects/TabGroup'
 import TabList from './javascripts/objects/TabList'
 
 module.exports = {
-  // lib
-  CsvValidator: CsvValidator,
-  parseQueryString: parseQueryString,
-  randomString: randomString,
-
-  // Objects
-  AppShell : AppShell,
-  AuthenticationCofig: AuthenticationCofig,
-  Button: Button,
-  Panel: Panel,
-  PillBadge: PillBadge,
-  Tab: Tab,
-  TabContent: TabContent,
-  TabGroup: TabGroup,
-  TabList: TabList
+  CsvValidator,
+  parseQueryString,
+  randomString,
+  AppShell,
+  AuthenticationCofig,
+  Button,
+  Panel,
+  PillBadge,
+  Tab,
+  TabContent,
+  TabGroup,
+  TabList
 }
