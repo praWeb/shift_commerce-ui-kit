@@ -28,6 +28,7 @@ import Modal from './src/javascripts/objects/Modal'
 import Panel from './src/javascripts/objects/Panel'
 import PillBadge from './src/javascripts/objects/PillBadge'
 import Popover from './src/javascripts/objects/Popover'
+import PusherConfig from './src/javascripts/objects/PusherConfig'
 import Tab from './src/javascripts/objects/Tab'
 import TabContent from './src/javascripts/objects/TabContent'
 import TabGroup from './src/javascripts/objects/TabGroup'
@@ -57,6 +58,7 @@ module.exports = {
   Panel,
   PillBadge,
   Popover,
+  PusherConfig,
   Tab,
   TabContent,
   TabGroup,
