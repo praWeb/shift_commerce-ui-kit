@@ -9,12 +9,12 @@ import { setAccessToken } from 'redux-json-api'
 
 // import objects/components
 import AuthenticationConfig from "./AuthenticationConfig"
-import Button from "shift_commerce-ui-kit/src/javascripts/objects/Button"
+import Button from "./Button"
 
 // import assets
-import defaultAvatar from "shift_commerce-ui-kit/src/images/default-avatar.svg"
-import iconCloseMenu from "shift_commerce-ui-kit/src/images/icon-close-menu.svg"
-import iconOpenMenu from "shift_commerce-ui-kit/src/images/icon-open-menu.svg"
+import defaultAvatar from "../../images/default-avatar.svg"
+import iconCloseMenu from "../../images/icon-close-menu.svg"
+import iconOpenMenu from "../../images/icon-open-menu.svg"
 
 // import actions
 import { resetAuthentication } from '../actions'

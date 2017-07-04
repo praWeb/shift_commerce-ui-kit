@@ -2,15 +2,16 @@
   "name": "shift_commerce-ui-kit",
   "version": "0.0.19",
   "description": "UI Kit for Shift Commerce Projects",
-  "gitrepository": "https://github.com/praWeb/shift_commerce-ui-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/praWeb/shift_commerce-ui-kit"
+  },
   "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -p --config webpack.config.js"
   },
   "files": [
-    "./src/**",
-    "./src/**/**/**",
-    "./src/**/**/**/*",
     "./index.js"
   ],
   "keywords": [
@@ -22,6 +23,7 @@
     "babel-core": "^6.24.1",
     "babel-jest": "^19.0.0",
     "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.7.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
@@ -45,7 +47,9 @@
     "sass-loader": "^6.0.5",
     "style-loader": "^0.13.2",
     "url-loader": "^0.5.7",
-    "webpack": "^2.4.1"
+    "file-loader": "^0.10.1",
+    "webpack": "^2.4.1",
+    "lazy.js": "^0.4.2"
   },
   "author": "Prasanna Gaddam",
   "license": "ISC"
