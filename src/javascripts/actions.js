@@ -84,6 +84,8 @@ export function resetSearch(namespace) {
 }
 
 export function setApplicationConfiguration(config, services = []) {
+  console.log("in setApplication Configuration")
+  console.log(services)
   return ((dispatch) => {
     services.forEach ((service) =>{
       service(config, dispatch)
